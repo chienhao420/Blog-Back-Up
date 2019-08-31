@@ -1,7 +1,9 @@
 #coding: utf-8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from PIL import Image
 import os
-import sys
 import json
 from datetime import datetime
 from ImageProcess import Graphics
